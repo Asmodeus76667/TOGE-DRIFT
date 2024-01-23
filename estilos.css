@@ -1,0 +1,109 @@
+/* CSS modificado con fondo más oscuro y botones azul celeste */
+
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #fff;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #333; /* Fondo oscuro más claro */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db; /* Azul celeste al pasar el ratón */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+table tr:hover {
+    background-color: #2c3e50;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+button {
+    background-color: #3498db; /* Azul celeste */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2077b3; /* Tonos más oscuros de azul celeste al pasar el ratón */
+}
+/* Agrega estilos para el mosaico de imágenes */
+.mosaico {
+    display: flex;
+    justify-content: space-around; /* Ajusta según sea necesario */
+    align-items: center;
+}
+
+.mosaico img {
+    margin-right: 10px; /* Ajusta el espacio entre las imágenes según sea necesario */
+}
+/* Estilo para las imágenes de productos */
+.producto-imagen {
+    width: 180px; /* Ancho fijo para la imagen */
+    height: 110px; /* Altura fija para la imagen */
+    object-fit: cover; /* Ajusta la propiedad object-fit según tus necesidades */
+}
